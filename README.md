@@ -12,5 +12,12 @@ Flowise is an open source low-code tool for developers to build customized LLM o
 Since we wanted to use all components of our system locally, we deployed Flowise locally using NPM. For other deployment options head over to their [documentation](https://docs.flowiseai.com/getting-started) or [Github](https://github.com/FlowiseAI/Flowise).
 
 1. Install [NodeJS](https://nodejs.org/en/download/package-manager) (Node v18.15.0 or v20)
-2. Open terminal through cmd and installe Flowise
-    npm install -g flowise
+2. Open terminal through cmd and install Flowise
+```npm install -g flowise```
+3. After installing start Flowise in the terminal
+```npx flowise start```
+4. Open: [http://localhost:3000](http://localhost:3000)
+> [!TIP]
+> Download flowise_temp.bat file. Executing this file with automatically start and opens Flowise.
+5. Update Flowise:
+```npm update -g flowise```
