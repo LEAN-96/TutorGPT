@@ -83,7 +83,7 @@ The **FAISS** module also contains a vector store retriever, **FAISS** retriever
 ## Generation
 
 
-The ChatOllama module plays a central role in managing the interactive aspect of the system. It uses the top-3 documents to provide responses to user queries. Here we define the model we want to use and set the models temperature value to 0.3. Increasing the temperature of the model will make the model answer more creatively. Again the Base URL is set to http://localhost:11434, since this is where we connect Ollama to our flow.
+The **ChatOllama** module plays a central role in managing the interactive aspect of the system. It uses the top-3 documents to provide responses to user queries. Here we define the model we want to use and set the models temperature value to 0.3. Increasing the temperature of the model will make the model answer more creatively. Again the Base URL is set to http://localhost:11434, since this is where we connect Ollama to our flow.
 
 Now after we have built all the components, created a vector store (or added already existing vector store to path) and saved our flow we are ready to the the chatflow in action! Click on the chat icon and start chatting with TutorGPT!
 
