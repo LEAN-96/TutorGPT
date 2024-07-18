@@ -13,7 +13,7 @@ Before you can import the chatflow you need to have Flowise and Ollama installed
 
 ## What is Flowise?
 
-Flowise is an open source low-code tool for developers to build customized LLM orchestration flows & AI agents. Through a simple drag-and-drop UI approach it allows you to quickly prototype LLM applications.
+Flowise is an open source low-code tool for developers to build customized LLM orchestration flows & AI agents. Through a simple drag-and-drop UI approach it allows you to quickly prototype LLM applications. Flowise allows you to built applications based on LLM frameworks LangChain and LlamaIndex. We decided to use the LangChain components, because LlamaIndex is still a Beta Version in Flowise.
 
 ## How to install Flowise?
 Since we wanted to use all components of our system locally, we deployed Flowise locally using NPM. For other deployment options head over to their [documentation](https://docs.flowiseai.com/getting-started) or [Github](https://github.com/FlowiseAI/Flowise).
