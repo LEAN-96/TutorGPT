@@ -47,7 +47,7 @@ Ollama is an open-source project that serves as a powerful and user-friendly pla
 
 ```ollama pull nomic-embed-text```
 
-#  Implementation of the chatflow
+#  Importing the chatflow
 After setting up Flowise, Ollama and pulling the models successfully you are ready to start with Flowise using local models. 
 > [!IMPORTANT]
 > Always make sure Ollama is running in the background. Open [http://127.0.0.1:11434/](http://127.0.0.1:11434/) and it should say "Ollama is running". Flowise should be running in a cmd window as well.
@@ -55,7 +55,7 @@ After setting up Flowise, Ollama and pulling the models successfully you are rea
 1. On [http://localhost:3000/chatflows](http://localhost:3000/chatflows) click "Add New" on the top right corner to create a blank chatflow
 2. Download TutorGPT.json from this repository.
 3. Now you should see a blank canvas. We are going to import our chatflow by clicking on the settings icon in the top right corner. Press "Load Chatflow" and import "TutorGPT.json".
-4. 
+4. Save the chatflow
 
 
 
