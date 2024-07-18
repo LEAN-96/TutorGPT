@@ -1,8 +1,9 @@
 # TutorGPT
 
-In this repository we will explore how to build a no-code, local and open-source Retrieval-Augmented-Generation (RAG) chatflow using [Flowise AI](https://flowiseai.com/). This project was part of the master program study Digital Business Engineering at the Herman-Hollerith-Zentrum (HHZ) in the lecture Applied Machine Learning 
+In this repository we will explore how to build a no-code, local and open-source Retrieval-Augmented-Generation (RAG) chatflow
+We will explain how to build each component using [Flowise AI](https://flowiseai.com/).
 
-For the purpose of our project we have built an AI Tutor for the lecture of Distributed System. Our tutor answers questions about the lecture slides in an engaging and motivating tone.
+This project was part of the master program study Digital Business Engineering at the Herman-Hollerith-Zentrum (HHZ) in the lecture Applied Machine Learning. For the purpose of our project we have built an AI Tutor for the lecture of Distributed System. Our tutor answers questions about the lecture slides in an engaging and motivating tone.
 
 
 ![image](https://github.com/user-attachments/assets/813dff1b-4299-47d5-8dc1-e6ddbd324064)
