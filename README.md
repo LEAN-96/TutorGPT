@@ -1,6 +1,6 @@
 # TutorGPT
 
-In this repository we will explore how to build a no-code, local and open-source Retrieval-Augmented-Generation (RAG) chatflow
+In this repository we will explore how to build a no-code, local and open-source Retrieval-Augmented-Generation (RAG) chatflow.
 We will explain how to build each component using [Flowise AI](https://flowiseai.com/).
 
 This project was part of the master program study Digital Business Engineering at the Herman-Hollerith-Zentrum (HHZ) in the lecture Applied Machine Learning. For the purpose of our project we have built an AI Tutor for the lecture of Distributed System. Our tutor answers questions about the lecture slides in an engaging and motivating tone.
@@ -47,6 +47,12 @@ Ollama is an open-source project that serves as a powerful and user-friendly pla
 ```ollama pull gemma2:9b```
 
 ```ollama pull nomic-embed-text```
+
+4. After you have pulled the models you want, you can run them using the ollama run command. Use the following syntax to run a specific model, in this example we will run the small language model gemma:2b:
+
+```ollama run gemma:2b```
+
+5. To stop a running model in your terminal, use Ctrl + d or /bye.
 
 #  Importing the chatflow
 After setting up Flowise, Ollama and pulling the models successfully you are ready to start with Flowise using local models. 
